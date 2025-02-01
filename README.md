@@ -5,4 +5,5 @@ The index is calculated on words as split from the text using " " as separator. 
 ending in different punctuation, or different capitalization, in brackets, etc. are counted as distinct.
 
 The macro assumes the original text is in column D, the revised text in column E, 
-and the Jaccard Index (%) will be added to column F of the row.
+and the Jaccard Index (%) will be added to column F of the row. The first row is assumed a heading
+row and is skipped.
